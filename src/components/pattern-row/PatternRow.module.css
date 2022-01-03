@@ -1,0 +1,21 @@
+.patternRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.icon{
+    color: #555;
+    cursor: pointer;
+}
+.rowTitle{
+    font-weight: 700;
+}
+
+.inputRow{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

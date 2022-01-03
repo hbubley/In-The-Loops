@@ -1,0 +1,12 @@
+.posts{
+    color: #555;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

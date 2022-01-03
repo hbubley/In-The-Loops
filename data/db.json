@@ -1,0 +1,69 @@
+{
+  "patterns": [
+    {
+      "id": "1",
+      "title": "Example Crochet",
+      "materials": "4mm hook, yarn",
+      "description": "",
+      "pattern": [
+        {
+          "row": "1",
+          "value": "dc 6 in magic circle"
+        }
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "title": "Cat Pattern",
+      "pattern": [
+        {
+          "value": "example of data",
+          "row": "1"
+        },
+        {
+          "value": "example of data",
+          "row": "2-3"
+        },
+        {
+          "value": "dc 6 in a magic circle",
+          "row": "4"
+        },
+        {
+          "value": "dc around",
+          "row": "5"
+        }
+      ],
+      "difficulty": "Easy",
+      "materials": "Crochet hook, yarn, scissors",
+      "id": "wsz0QvO"
+    },
+    {
+      "title": "Cat",
+      "pattern": [
+        {
+          "value": "erwagtreg",
+          "row": "1"
+        },
+        {
+          "value": "ewfewf",
+          "row": "2-8"
+        },
+        {
+          "value": "dasdas",
+          "row": "9"
+        },
+        {
+          "value": "ffff",
+          "row": "10-12"
+        },
+        {
+          "value": "fdsf",
+          "row": "13-15"
+        }
+      ],
+      "difficulty": "Easy",
+      "materials": "Crochet hook, yarn, scissors",
+      "id": "IEP5y3X"
+    }
+  ]
+}

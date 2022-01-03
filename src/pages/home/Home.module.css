@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+
+.title{
+    font-family: 'Vibur', cursive;
+    font-size: 76px;
+    letter-spacing: 1.5px;
+    margin: 0px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70%;
+    box-sizing: border-box;
+}
+
+.subtitle{
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.sidebanner{
+    position: fixed;
+    left: 0;
+    background-color: #5D5F71;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

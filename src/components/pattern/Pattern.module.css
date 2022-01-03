@@ -1,0 +1,44 @@
+.patternInputRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linePreview{
+    width: 40%;
+    height: 2px;
+    background-color:#d8e2dc;
+    border: 0;
+}
+.lineDisplay{
+    width: 40%;
+    height: 2px;
+    background-color:#BF8B85;
+    border: 0;
+}
+.pattern{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.patternPreview{
+    border: 2px solid #5D5F71;
+    margin: 10px;
+    border-radius: 5px;
+    color: #555;
+}
+.patternDisplay{
+    margin: 60px auto;
+    color: #555;
+}
+.subtext{
+    font-size: 16px;
+    opacity: 0.8;
+}
+.label{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}

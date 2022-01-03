@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import { Outlet, ReactLocation, Router } from 'react-location';
+import Home from './pages/home/Home';
+import Navbar from './components/navbar/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
+import Create from './pages/create/Create';
+import Posts from './pages/posts/Posts';
+import useFetch from './hooks/useFetch';
+import Post from './pages/post/Post';
+
+
+
+const location = new ReactLocation();
 
 function App() {
+  const [data, isPending, error] = useFetch('http://localhost:3001/patterns');
+
+  const routes = [
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/create",
+      element: <Create />
+    },
+    {
+      path: "posts",
+      element: <Posts />,
+    },
+    {
+      path: "/post/:id",
+      element: <Post />
+    },
+  ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router location={location} routes={routes}>
+        <div className="App-main">
+          <Navbar />
+          <Outlet />
+        </div>
+        <div className="App-sidebar">
+          <Sidebar posts={data} />
+        </div>
+      </Router>
     </div>
   );
 }
