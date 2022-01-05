@@ -6,7 +6,7 @@ const NavBar = () => {
         <nav className={styles.navbar}>
             <div>
                 <Link to="/">
-                    <img className={styles.img} src={`https://res.cloudinary.com/dum4u7sro/image/upload/v1639772475/D_L_yj4pxy.png`} alt="logo" />
+                    <img className={styles.img} src={`https://res.cloudinary.com/dum4u7sro/image/upload/v1641401012/outline_drrltf.png`} alt="logo" />
                 </Link>
             </div>
             <div className={styles.items}>
